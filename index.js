@@ -9,3 +9,12 @@ function theBeatlesBlay(arrMusicians, arrInstruments){
     }
     return playArray;
 }
+function johnLennonFact(facts){
+  let factsReturn = [];
+  let i = 0;
+  while (i < facts.length){
+    let currentFact = facts[i];
+    factsReturn.push(currentFact + "!!!")
+    i++;
+  }
+}
