@@ -5,7 +5,7 @@ function theBeatlesBlay(arrMusicians, arrInstruments){
     for (i = 0; i < arrMusicians.length; i++){
       let currentMusician = arrMusicians[i];
       let currentInstrument = arrInstruments[i];
-      playArray.push(currentMusician + " plays " + currentInstrument +'.');
+      playArray.push(currentMusician + " plays " + currentInstrument);
     }
     return playArray;
 }
