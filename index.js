@@ -1,5 +1,5 @@
 // add solution here
-function theBeatlesBlay(arrMusicians, arrInstruments){
+function theBeatlesPlay(arrMusicians, arrInstruments){
     
     let playArray = [];
     for (i = 0; i < arrMusicians.length; i++){
@@ -9,7 +9,7 @@ function theBeatlesBlay(arrMusicians, arrInstruments){
     }
     return playArray;
 }
-function johnLennonFact(facts){
+function johnLennonFacts(facts){
   let factsReturn = [];
   let i = 0;
   while (i < facts.length){
